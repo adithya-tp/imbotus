@@ -1,5 +1,5 @@
 # imbotus: The Impartus Bot
-I am not much of a morning person. So, when the 2020 quarantine happened, and classes went online, I made a bot that attends my online classes for me according to my timetable. So if you're not a morning person either, you now know what to do!  
+I am not a "morning" person. So, when the 2020 quarantine happened, and classes went online, I made a bot that attends my online classes for me according to my timetable. So if you're not a morning person either, you now know what to do!  
   
 ---
 
