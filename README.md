@@ -16,7 +16,7 @@ I am not a "morning" person. So, when the 2020 quarantine happened, and classes 
  14 username.send_keys("<enter_your_user_name_here>")
  15 password.send_keys("<enter_your_password_here")
 ```
-3. Schedule to run the script using "crontab" (in Mac and Linux Based Distros), or "Task Scheduler" (in Windows)
+3. Schedule to run the script according to your timetable using "crontab" (in Mac and Linux Based Distros), or "Task Scheduler" (in Windows)
 
 ---
 
