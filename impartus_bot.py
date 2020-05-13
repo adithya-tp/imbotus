@@ -1,6 +1,10 @@
+import os
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+
+USERNAME = os.environ['USERNAME']
+PASSWORD = os.environ['PASSWORD']
 
 driver = webdriver.Chrome('/usr/bin/chromedriver')
 driver.maximize_window()
@@ -11,8 +15,8 @@ username = driver.find_element_by_id("username")
 password = driver.find_element_by_id("password")
 
 #insert username and password here...
-username.send_keys("<enter_your_user_name_here>")
-password.send_keys("<enter_your_password_here")
+username.send_keys(USERNAME)
+password.send_keys(PASSWORD)
 
 login = driver.find_element_by_class_name("iu-btn")
 login.click()
