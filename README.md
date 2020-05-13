@@ -9,14 +9,12 @@ I am not a "morning" person. So, when the 2020 quarantine happened, and classes 
 ---
 
 # Quick Start
-1. Open up the script `impartus_bot.py` in your favourite editor.
-2. Enter in your login credentials (refer to the following lines)
+1. Set up the following ENVIRONMENT VARIABLES in your system:
 ```bash
-#insert username and password here...
- 14 username.send_keys("<enter_your_user_name_here>")
- 15 password.send_keys("<enter_your_password_here")
+      USERNAME (set this to your impartus username)
+      PASSWORD (set this to your impartus password)
 ```
-3. Schedule to run the script according to your timetable using "crontab" (in Mac and Linux Based Distros), or "Task Scheduler" (in Windows)
+2. Schedule to run the script according to your timetable using "crontab" (in Mac and Linux Based Distros), or "Task Scheduler" (in Windows)
 
 ---
 
